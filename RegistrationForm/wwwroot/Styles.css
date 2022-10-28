@@ -112,17 +112,17 @@ input{
 
 .form-step {
     display: none;
-    transform-origin: top;
+    transform-origin: center;
     animation: animate 0.5s;
 }
 @keyframes animate {
-    from {
-        transform: scale(1, 0);
+    0% {
+        transform: scale(-1, 1);
         opacity: 0;
     }
-
-    to {
-        transform: scale(1, 1);
+    
+    100% {
+        transform: scale(1, 1) ;
         opacity: 1;
     }
 }
@@ -133,6 +133,17 @@ input{
     margin: 2rem 0;
 }
 
+/*Errors*/
+.error{
+    display: none;
+}
+
+.error-active{
+    display: block;
+    
+    color: red;
+    font-family: Calibri;
+}
 /*Button*/
 .btns-group {
     display: grid;
