@@ -10,6 +10,7 @@ const confPassword = document.getElementById("confirmPassword");
 const passErrors = document.querySelectorAll(".pass-error");
 const submmit = document.querySelector(".btn-submit");
 
+
 let formStepsNum = 0;
 let inputNum = 0;
 
@@ -116,3 +117,5 @@ function validConfirm(passw, anPass) {
         }
     }
 }
+
+

@@ -59,7 +59,7 @@ input{
     transform: translateY(-50%);
     height: 4px;
     width: 100%;
-    background-color: #dec6c6;
+    
     z-index: -1;
 }
 
